@@ -27,25 +27,6 @@ main{
 }
 
 /******************HEADER******************/
-nav {
-  background-color: white;
-  height: 30px;
-  margin: 0;
-  border: 1px solid white;
-  text-align: right;
-  padding-bottom: 15px;
-}
-nav li {
-  display: inline-block;
-  padding-right: 40px;
-}
-nav ul li a {
-  color: #496333;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 header{
   background: url('../img/desk-image.png');
   background-size: cover;
@@ -58,19 +39,38 @@ header h1 {
   font-family: 'playfair display', serif;
   font-weight: bold;
   color: #496333;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 178px;
   text-transform: capitalize;
 }
 
 header h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
+  font-weight: bold;
+  font-size: 26px;
   text-align: center;
   text-transform: uppercase;
   color: #496333;
+}
+nav {
+  background-color: white;
+  height: 30px;
+  margin: 0;
+  border: 1px solid white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+nav li {
+  display: inline-block;
+  padding-right: 40px;
+}
+nav ul li a {
+  color: #496333;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /********************PORTFOLIO******************/
@@ -83,23 +83,24 @@ header h2 {
 }
 
 #portfolio img{
-  height: 300px;
-  padding-left: 100px;
+  height: 280px;
+  padding-left: 0px;
+  margin-left: 100px;
+  box-shadow: 10px 10px 5px grey;
 }
 
 #portfolio h3 {
   font-family: 'playfair display', serif;
   font-size: 24px;
   text-align: left;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0 0 10px 10px;
   color: #496333;
 }
 
 #portfolio h4 {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  margin-top: 0;
+  margin: 0 0 10px 10px;
   color: #496333;
 }
 
@@ -122,9 +123,9 @@ header h2 {
 }
 
 #aboutme img {
-  height:300px;
-  margin: 50px 50px 100px 100px;
-  padding: 0;
+  height:200px;
+  margin: 100px 0px 100px 100px;
+  padding: 0 0 0 0;
   border: 5px solid #496333;
 }
 
@@ -133,11 +134,14 @@ header h2 {
   text-transform: capitalize;
   font-size: 24px;
   text-align: left;
-  margin-top: 50px 0 10px 0;
-  padding: 20px 0 0 0;
+  margin: 50px 10px 10px 10px;
+  padding: 0 0 0 0;
   color: #496333;
 }
-
+#aboutme p {
+  text-align: left;
+  margin:0 50px 0 10px;
+}
 /*******************FOOTER******************/
 footer {
   background: url('../img/desk-image.png');
