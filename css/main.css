@@ -25,10 +25,14 @@ main{
   width: 400px;
   float: left;
 }
+.two-thirds-width{
+  width: 800px;
+  float: left;
+}
 
 /******************HEADER******************/
 header{
-  background: url('../img/desk-image.png');
+  background: url("../img/desk-image.png");
   background-size: cover;
   background-position: top;
   height: 500px;
@@ -123,9 +127,9 @@ nav ul li a {
 }
 
 #aboutme img {
-  height:200px;
-  margin: 100px 0px 100px 100px;
-  padding: 0 0 0 0;
+  height:300px;
+  margin: 50px 50px 100px 100px;
+  padding: 0;
   border: 5px solid #496333;
 }
 
@@ -177,12 +181,16 @@ footer a {
 footer ul {
   text-decoration: none;
   list-style: none;
-  padding-left: 0;
+  margin-left: 70px;
+
 
 }
 
 footer img{
   height: 50px;
+  padding: 0 20px 0 20px;
+  float: left;
+  position: center;
 }
 /********************BACKGROUND STYLES***************/
 
@@ -206,4 +214,28 @@ footer img{
   float: left;
   margin:100px;
   border: 10px solid #496333;
+}
+/*********************RESUME SIDEBAR*********************/
+#resume-sidebar {
+  background: slategrey;
+}
+#resume-sidebar img {
+  height: 330px;
+  margin: 30px 0 0 30px;
+  border: #f9efee solid 3px;
+}
+#resume-sidebar h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: bold;
+}
+/********************RESUME MAIN********************/
+#resume-main {
+  background: #f9efee;
+  padding-left: 10px;
+}
+#resume-main h2 {
+  font-size: 36px;
+  font-weight: bold;
 }
